@@ -1,0 +1,51 @@
+body{
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+.intro{
+  border: 3px solid black;
+}
+.Converse{
+  font-size: 22px;
+  text-align: center;
+  text-transform:uppercase;
+  background-color: #f7f7f7;
+}
+.price{
+  font-weight: bolder;
+  font-size: 20px;
+
+}
+.fine-shipping{
+  text-transform: uppercase;
+  font-size: 15px;
+  color:rgb(184, 118, 118);
+}
+a:link, a:visited{
+  color:black ;
+}
+a:hover, a:active {
+ color:blue;
+ text-decoration: none;
+}
+.details{
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.list{
+  list-style: square;
+}
+button{
+  background-color: black; 
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  cursor: pointer;
+}
+button:hover{
+  background-color:white;
+  color: black;
+ 
+}
+  
