@@ -1,26 +1,34 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: sans-serif;
   line-height: 1.4;
 }
+img {
+  float: left;
+  margin-right: 20px;
+}
 .sale {
-  background-color: red;
+  background-color: #ec2f2f;
   color: white;
   font-size: 12px;
-  padding: 2px 10px;
+  padding: 5px 10px;
   position: absolute;
   text-transform: uppercase;
   letter-spacing: 3px;
-  top: -12px;
-  left: -33px;
+  top: -14px;
+  left: -30px;
   font-weight: bold;
+  display: inline-block;
+  /* width: 40px;
+  text-align: center; */
 }
-.intro {
-  width: 700px;
-  margin: 20px auto;
+.Product {
+  width: 825px;
+  margin: 50px auto;
   border: 3px solid black;
   position: relative;
 }
@@ -35,46 +43,44 @@ body {
 /* .colors{
    margin-top: 25px; 
 }  */
-.x {
+.color {
   display: inline-block;
-  margin: 20px 10px;
+  margin-right: 12px;
+  height: 22px;
+  width: 22px;
 }
 
 .a {
   background-color: black;
-  height: 20px;
-  width: 20px;
 }
 .b {
   background-color: blue;
-  height: 20px;
-  width: 20px;
 }
 .c {
   background-color: red;
-  height: 20px;
-  width: 20px;
 }
 .d {
   background-color: yellow;
-  height: 20px;
-  width: 20px;
 }
 .e {
   background-color: lightgreen;
-  height: 20px;
-  width: 20px;
 }
 .f {
   background-color: brown;
-  height: 20px;
-  width: 20px;
+}
+
+.product-info {
+  width: 243px;
+  float: left;
+  margin-left: 43px;
+  margin-top: 20px;
 }
 
 .price {
   margin: 0;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 24px;
+  float: left;
 }
 .fine-shipping {
   text-transform: uppercase;
@@ -82,24 +88,45 @@ body {
   color: black;
   margin-bottom: 20px;
   font-weight: bold;
+  float: right;
+  margin-top:11px;
 }
-a:link,
-a:visited {
+.more-info:link,
+.more-info:visited {
   color: black;
+  margin-bottom: 30px;
+  display: inline-block;
 }
-a:hover,
-a:active {
+.more-info:hover,
+.more-info:active {
   color: blue;
   text-decoration: none;
 }
+.description {
+  clear: both;
+  margin-bottom: 10px;
+}
+/* DETAILS */
+/* details title */
 .details {
   text-transform: uppercase;
   font-size: 16px;
   margin-bottom: 15px;
+  
+  margin-left: 25px;
+
 }
 .list {
   list-style: square;
   margin-left: 25px;
+}
+.list li {
+  margin-bottom: 10px;
+}
+.product-details {
+  width: 243px;
+  float: left;
+  margin-top:20px ;
 }
 /* .sale{
 } */
@@ -107,11 +134,11 @@ button {
   background-color: black;
   color: white;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 20px;
   cursor: pointer;
   width: 100%;
   height: auto;
-  padding: 12px;
+  padding: 15px;
   border: none;
   border-top: 2px solid black;
 }
