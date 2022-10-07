@@ -21,32 +21,57 @@
         font-family: "Rubik", sans-serif;
         color: #444;
       }
-      header{
-        background-color: orangered;
+      header {
+        /* background-color: orangered; */
         height: 100vh;
-        
-      }
+        position: relative;
+        color: white;
 
-      .container{
-        margin: 0 auto;
-        width: 1200px;
+        background-image:linear-gradient(rgba(40, 39, 39, 0.6),rgba(40, 39, 39, 0.6)), url(hero.jpg);
+        background-size: cover;
+        
       }
 
       nav {
         font-size: 20px;
         font-weight: 700;
+        padding-top: 32px;
+        /* background-image: linear-gradient(to right,red,blue); */
+
+
         display: flex;
         justify-content: space-between;
+        /* background-color: green; */
       }
+
+      .header-container {
+        width: 1200px;
+        position: absolute;
+
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+
+        /* background-color: violet; */
+      }
+
+      .header-container-inner{
+        width: 50%;
+      }
+
       h1 {
         font-size: 52px;
         margin-bottom: 32px;
+        line-height: 1.05;
       }
+
       p {
         font-size: 20px;
         line-height: 1.6;
         margin-bottom: 48px;
       }
+
       .btn:link,
       .btn:visited {
         font-size: 20px;
@@ -58,14 +83,20 @@
         display: inline-block;
         border-radius: 9px;
       }
-      h2{
+
+      .container {
+        margin: 0 auto;
+        width: 1200px;
+      }
+      h2 {
         font-size: 44px;
         margin-bottom: 48px;
       }
-      section{
-        padding:96px 0;
-      }
 
+      section {
+        padding: 96px 0;
+        background-color: #f7f7f7;
+      }
     </style>
   </head>
   <body>
@@ -75,16 +106,19 @@
         <div>NAVIGATION</div>
       </nav>
 
-      <div class="container">
-        <h1>A healty meal delivered to yout door, every single day</h1>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas,
-          qui vitae fugiat perferendis at vero? Maxime vitae quis assumenda sed,
-          minus temporibus.
-        </p>
-        <a href="#" class="btn">Start eating well</a>
+      <div class="header-container">
+        <div class="header-container-inner">
+          <h1>A healty meal delivered to yout door, every single day</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas,
+            qui vitae fugiat perferendis at vero? Maxime vitae quis assumenda
+            sed, minus temporibus.
+          </p>
+          <a href="#" class="btn">Start eating well</a>
+        </div>
       </div>
     </header>
+
     <section>
       <div class="container">
         <h2>Some random heading</h2>
