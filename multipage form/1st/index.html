@@ -69,10 +69,11 @@
         </ul>
 
         <form action="" class="form" id="m-form">
-          <label for="first-name"
+          <label for="name"
             >Name:
             <div class="name">
               <input
+                aria-labelledby="name"
                 id="first-name"
                 name="first-name"
                 type="text"
@@ -81,7 +82,8 @@
                 placeholder="Young Jhon"
               />
               <input
-                id="first-name"
+                aria-labelledby="name"
+                id="last-name"
                 name="first-name"
                 type="text"
                 required
@@ -90,16 +92,6 @@
               />
             </div>
           </label>
-          <label for="last-name"
-            >Last Name:
-            <input
-              id="last-name"
-              name="last-name"
-              type="text"
-              required
-              class="input"
-              placeholder="Bossom"
-          /></label>
           <label for="email"
             >Email:
             <input
@@ -110,19 +102,33 @@
               class="input"
               placeholder="YJ@gmail.com"
           /></label>
-          <label for="new-password"
+          <label for="password"
             >Create Password:
             <input
               class="input"
-              id="new-password"
+              id="password"
               name="new-password"
               type="password"
               pattern="[a-z0-5]{8,}"
               required
               placeholder="Password"
           /></label>
+          <label for="rpassword"
+            >Create Password:
+            <input
+              class="input"
+              id="rpassword"
+              name="new-password"
+              type="password"
+              pattern="[a-z0-5]{8,}"
+              required
+              placeholder="Repeat Password"
+          /></label>
         </form>
-        <button class="input button" form="m-form">Next &rarr;</button>
+        <div class="btn">
+          <button class="input button" form="m-form">&larr; Back</button>
+          <button class="input button" form="m-form">Next &rarr;</button>
+        </div>
       </div>
       <figure class="fig"></figure>
     </div>

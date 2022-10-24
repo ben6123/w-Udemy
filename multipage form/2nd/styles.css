@@ -1,0 +1,185 @@
+/* #eb984e */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  /* font-family: "Rubik", sans-serif; */
+  font-family: "Tahoma", sans-serif;
+  font-weight: 600;
+  color: #555;
+}
+
+.main {
+  padding-top: 10rem;
+  height: 100vh;
+  width: 100%;
+  /* background-image:linear-gradient(to right,rgba(40, 39, 39, 0.823),rgba(40, 39, 39, 0.066)), url("tyler-franta-iusJ25iYu1c-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+
+.container {
+  max-width: 48%;
+  min-width: 35%;
+  height: 85%;
+  margin-left: 50%;
+  margin: 0 auto;
+  /* box-shadow: 0 0 2.8rem rgba(0, 0, 0, 0.148); */
+  border: 2px solid #029a41;
+  padding-top:1rem;
+}
+
+.logo{
+  display: block;
+  height: 2.6rem;
+  width: auto;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+
+.head {
+  margin: 0 auto;
+  padding: 1rem 8rem 2rem;
+  gap: 0.1rem;
+}
+
+.head1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 3.4rem;
+  margin-right: 1.4rem;
+}
+
+.act-img {
+  margin: 0 auto;
+  display: block;
+  stroke: #343a40;
+  width: 4rem;
+  /* height: 4rem; */
+}
+
+.form {
+  padding: 1.4rem 1rem 1.4rem;
+  width: 93%;
+  margin: 0 auto;
+  background-color: #eb984e;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.304);
+}
+
+/* NAV ITEMS */
+.nav {
+  margin: 0.2rem 12rem 4.2rem 12rem;
+  display: flex;
+  gap: 0.4rem;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-items {
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-items:not(:first-child).page{
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+}
+
+/* ACTIVE STEP */
+.nav-items:first-child {
+  background-color: #029a41;
+  color: rgb(247, 243, 243);
+}
+
+.steps:link,
+.steps:visited {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  padding: 0.4rem 0.8rem;
+  transition: all 0.5s;
+}
+
+/* .steps:hover,
+.steps:active {
+  color: #343a40;
+  border-bottom: 1px solid currentColor;
+} */
+
+/*            */
+
+.r-arrow {
+  margin-top: 0.4rem;
+  stroke: #343a40;
+  width: 2.4rem;
+}
+
+/*inputs and labels  */
+.label {
+  display: block;
+  margin: 0;
+}
+
+.input {
+  margin: 0.1rem 0 1rem 0;
+  width: 100%;
+  background-color: #f3f4f6;
+
+border: none;
+  padding: 0.8rem;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.name {
+  display: block;
+}
+
+.inline {
+  width: 49.5%;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.8rem;
+}
+
+.button.n {
+background-color: #029a41;
+color: #343a40;
+}
+
+.button {
+  margin: 0;
+  border: none;
+  width: 30%;
+  height: 4.2rem;
+  color: #029a41;
+}
+
+.button:hover {
+  border: none;
+  background-color: #752d2dfc;
+  color: #fdf2e9;
+  transition: all 0.5s;
+}
