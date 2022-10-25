@@ -19,7 +19,7 @@ body {
 }
 
 .main {
-  padding-top: 10rem;
+  padding-top: 7rem;
   height: 100vh;
   width: 100%;
   /* background-image:linear-gradient(to right,rgba(40, 39, 39, 0.823),rgba(40, 39, 39, 0.066)), url("tyler-franta-iusJ25iYu1c-unsplash.jpg");
@@ -73,6 +73,7 @@ body {
 .form {
   padding: 1.4rem 1rem 1.4rem;
   width: 93%;
+  /* height: 30rem; */
   margin: 0 auto;
   background-color: #eb984e;
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.304);
