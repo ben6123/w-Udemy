@@ -12,29 +12,27 @@ html {
 
 body {
   font-size: 1.4rem;
-  /* font-family: "Rubik", sans-serif; */
   font-family: "Tahoma", sans-serif;
   font-weight: 600;
   color: #555;
+  background-color: antiquewhite;
 }
 
 .main {
   padding-top: 7rem;
   height: 100vh;
   width: 100%;
-  /* background-image:linear-gradient(to right,rgba(40, 39, 39, 0.823),rgba(40, 39, 39, 0.066)), url("tyler-franta-iusJ25iYu1c-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; */
 }
 
 
 .container {
+  position: relative;
   max-width: 48%;
   min-width: 35%;
   height: 85%;
-  margin-left: 50%;
+  /* margin-left: 50%; */
   margin: 0 auto;
-  /* box-shadow: 0 0 2.8rem rgba(0, 0, 0, 0.148); */
+  box-shadow: 0 0 2.8rem rgba(0, 0, 0, 0.148);
   border: 2px solid #029a41;
   padding-top:1rem;
 }
@@ -62,13 +60,6 @@ body {
   margin-right: 1.4rem;
 }
 
-.act-img {
-  margin: 0 auto;
-  display: block;
-  stroke: #343a40;
-  width: 4rem;
-  /* height: 4rem; */
-}
 
 .form {
   padding: 1.4rem 1rem 1.4rem;
@@ -96,11 +87,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #029a41;
 }
 
 .nav-items:not(:first-child).page{
   background-color: rgb(255, 255, 255);
-  border: 1px solid black;
+  border: 0.15rem solid black;
 }
 
 /* ACTIVE STEP */
@@ -119,12 +111,6 @@ body {
   padding: 0.4rem 0.8rem;
   transition: all 0.5s;
 }
-
-/* .steps:hover,
-.steps:active {
-  color: #343a40;
-  border-bottom: 1px solid currentColor;
-} */
 
 /*            */
 
@@ -166,11 +152,12 @@ border: none;
 }
 
 .button.n {
-background-color: #029a41;
-color: #343a40;
+  background-color: #029a41;
+  color: #343a40;
 }
 
 .button {
+  text-transform: uppercase;
   margin: 0;
   border: none;
   width: 30%;
@@ -183,4 +170,14 @@ color: #343a40;
   background-color: #752d2dfc;
   color: #fdf2e9;
   transition: all 0.5s;
+}
+
+.line{
+  position: absolute;
+  height: 0.13rem;
+  width: 55%;
+  background-color: black;
+  top: 14.65rem;
+  left: 15.9rem;
+z-index: -1;
 }
