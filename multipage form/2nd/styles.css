@@ -15,7 +15,6 @@ body {
   font-family: "Tahoma", sans-serif;
   font-weight: 600;
   color: #555;
-  background-color: antiquewhite;
 }
 
 .main {
@@ -178,6 +177,6 @@ border: none;
   width: 55%;
   background-color: black;
   top: 14.65rem;
-  left: 15.9rem;
+  left: 15.75rem;
 z-index: -1;
 }
