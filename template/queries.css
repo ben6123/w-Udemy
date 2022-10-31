@@ -1,0 +1,44 @@
+@media (max-width: 50em) {
+  .profile {
+  width: 85%;
+  }
+  .grid5 {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  width: 85%;
+}
+
+.address-col {
+  padding-left: 0rem;
+}
+}
+
+@media(max-width:32em){
+ 
+
+
+  .grid2a {
+    display: grid;
+    grid-template-columns:1fr;
+  }
+  .survey-sec {
+    height: 10rem;
+  }
+}
+
+@media(max-width:25.3em){
+.grid5 {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  width: 80%;
+}
+.survey{
+    grid-row:3;
+}
+
+.ps{
+  padding-top: 0;
+  padding-bottom: 0rem;
+
+}
+}
