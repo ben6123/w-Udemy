@@ -32,7 +32,7 @@ body {
 .container {
   max-width: 45%;
   min-width: 35%;
-  height: 85%;
+  height: 88%;
   margin: 0 auto;
   /* margin:0 auto; */
   background-color: rgb(247, 243, 243);
@@ -151,7 +151,7 @@ body {
 .btn {
   display: flex;
   justify-content: space-around;
-  margin-top: 1.8rem;
+  margin-top: 0.6rem;
   /* margin:2rem auto 1rem; */
 }
 

@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  color: #444;
+  height: 100%;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  height: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #303a45
+, rgba(255, 0, 0, 0.332));
+  /* background:linear-gradient(red 10%, 30%, blue 90%); */
+
+}
+
+.container {
+  width: 40%;
+  height: 68vh;
+  padding: 4rem 2rem 2rem;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 2rem rgba(17, 17, 17, 0.39);
+}
+
+.sign-up {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.action-1 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  text-transform: uppercase;
+  background-color: #ccc;
+  margin-bottom: 2rem;
+  padding: 1.2rem 0.4rem;
+}
+.action-2 {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+.names,
+.password {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  border: none;
+  border-bottom: 0.15rem solid #ccc;
+  margin-bottom: 2.6rem;
+  padding: 0.4rem;
+}
+
+input[type="text"] {
+  width: 49%;
+  text-transform: capitalize;
+}
+input[type="email"] {
+  width: 100%;
+}
+input[type="password"] {
+  width: 49%;
+}
+input[type="number"] {
+  width: 100%;
+}
+
+::placeholder {
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  color: #444;
+}
+
+*:focus {
+  outline: none;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  border: none;
+  width: 35%;
+  height: 4rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.btn-next{
+    background-color: rgba(255, 0, 0, 0.332);
+
+}
+.btn-back{
+    background-color:#ccc;
+
+}

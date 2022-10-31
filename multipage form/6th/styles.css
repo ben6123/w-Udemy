@@ -1,0 +1,172 @@
+/* #eb984e */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: #111;
+}
+
+.main {
+  padding: 0.1rem 0 0;
+  height: 84vh;
+  width: 40%;
+  /* background-color: rgba(0, 255, 13, 0.203); */
+  background-color: #e8ece8;
+
+  margin: 3rem auto;
+  /* margin: 3rem 80rem 0 80rem; */
+  border-radius: 2rem;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  border-radius: 2rem;
+  overflow: hidden;
+  background-color: #e8ece8;
+  box-shadow: 0 0 2.8rem rgba(0, 0, 0, 0.237);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 7fr;
+}
+
+.head1 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 4rem;
+  margin: 2.8rem 0;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: green;
+}
+
+.head2 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  /* border: 0.2rem solid; */
+  font-weight: 600;
+  font-size: 2.2rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  /* color: green; */
+}
+
+.steps {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+}
+
+.step:nth-of-type(2){
+  background-color: #e8ece8;
+}
+
+.step:not(:nth-of-type(1)) {
+  border-left: 0.2rem solid black;
+}
+
+.form {
+  margin: 0 auto;
+  width: 100%;
+  letter-spacing: 0.02rem;
+  padding: 3rem 3rem 2rem 3rem;
+
+  display: flex;
+  flex-direction: column;
+  gap:2.6rem ;
+}
+
+.input {
+  width: 100%;
+  height: 3.4rem;
+  border: none;
+  border-bottom: 0.2rem solid rgb(0, 0, 0);
+  /* border-bottom: 0.2rem solid rgba(0, 255, 13, 0.203); */
+  padding: 0.4rem 0.4rem 0;
+  font-size: 1.6rem;
+  /* font-weight: 200; */
+  text-transform: capitalize;
+  border-radius: 0.2rem;
+  background-color: transparent;
+}
+
+::placeholder{
+  text-transform: uppercase;
+}
+
+input[type="email"]{
+  text-transform: none;
+  
+}
+
+/* it is always preferable to use box-shadow instead of outline */
+input:focus {
+  border: none;
+  outline: none;
+  /* transform: translateX(0.4rem); */
+  box-shadow: 0 0 0 0.4rem rgba(0, 255, 13, 0.203);
+  /* box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5); */
+
+
+
+  /* outline: 0.3rem solid rgba(0, 255, 13, 0.203); */
+  /* outline-offset: 0.2rem; */
+}
+
+.btns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  height: 8.5%;
+  /* height: 5.3rem; */
+  margin: 2rem auto;
+  font-weight: 500;
+  font-size: 2.6rem;
+}
+
+.btn {
+  box-shadow: 0 0 1rem rgba(17, 17, 17, 0.204);
+  height: 100%;
+  width: 45%;
+  text-transform: uppercase;
+  background-color: rgb(255, 255, 255);
+
+  display: flex;
+  cursor: pointer;
+  font-family: inherit;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3rem;
+}
+
+.n {
+  background-color: green;
+  color: white;
+}
